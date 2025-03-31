@@ -34,11 +34,33 @@
 ```
 
 ・よく使うコマンド一覧
-| 内容 | コマンド |
-|------|---------|
-| ローカルのブランチ切り替え | ```bash\ngit checkout ブランチ名\n``` |
-| ローカルのブランチに最新の内容をプル | ```bash\ngit pull origin ブランチ名\n``` |
-| 作業ブランチの作成 | ```bash\ngit checkout -b feature/名前\n``` |
-| 現在のブランチ確認 | ```bash\ngit branch\n``` |
-| 変更した内容の一時保存(スタッシュ) | ```bash\ngit stash -u\n``` |
-| 一時保存したスタッシュの内容を戻す | ```bash\ngit stash pop\n``` |
+
+ローカルのブランチ切り替え
+```cmd
+git checkout ブランチ名
+```
+
+最新の内容を pull する
+```cmd
+git pull origin ブランチ名
+```
+
+作業ブランチの作成
+```cmd
+git checkout -b feature/名前
+```
+
+現在のブランチ確認
+```cmd
+git branch
+```
+
+変更内容の一時保存（スタッシュ）
+```cmd
+git stash -u
+```
+
+一時保存したスタッシュの内容を戻す
+```cmd
+git stash pop
+```
